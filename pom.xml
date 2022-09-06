@@ -6,7 +6,6 @@
     <groupId>com.gazgeek</groupId>
     <artifactId>helloworld</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
 
 
     <parent>
@@ -21,18 +20,7 @@
 
     <build>
         <plugins>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>exec-maven-plugin</artifactId>
-        <version>1.6.0</version>
-        <configuration>
-          <mainClass>info.maigo.lab.hello.App</mainClass>
-          <arguments>
-            <argument>niwasawa</argument>
-            <argument>maigolab</argument>
-          </arguments>
-        </configuration>
-      </plugin>
+      
    
             
             <plugin> 
